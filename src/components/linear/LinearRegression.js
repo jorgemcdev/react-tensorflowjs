@@ -8,7 +8,7 @@ import Chart from './Chart';
 import sampleData from './data';
 import PredictForm from './PredictForm';
 
-const Index = () => {
+const LinearRegression = () => {
   const [data, setData] = useState(sampleData);
   const [prediction, setPrediction] = useState();
 
@@ -68,4 +68,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default LinearRegression;

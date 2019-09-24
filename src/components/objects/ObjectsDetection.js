@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '@tensorflow/tfjs';
 import * as cocoSsd from '@tensorflow-models/coco-ssd';
 
-const Index = () => {
+const ObjectsDetection = () => {
   const videoRef = React.useRef(null);
   const canvasRef = React.useRef(null);
 
@@ -134,4 +134,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default ObjectsDetection;

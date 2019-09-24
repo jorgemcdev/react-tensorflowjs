@@ -5,9 +5,9 @@ import './styles/main.css';
 import DefaultLayout from './ui/layouts/DefaultLayout';
 import LoadingSpinner from './ui/loading/LoadingSpinner';
 
-const Home = lazy(() => import('./components/home'));
-const Linear = lazy(() => import('./components/linear'));
-const Objects = lazy(() => import('./components/objects'));
+const Home = lazy(() => import('./components/home/Home'));
+const Linear = lazy(() => import('./components/linear/LinearRegression'));
+const Objects = lazy(() => import('./components/objects/ObjectsDetection'));
 
 const routes = [
   {
